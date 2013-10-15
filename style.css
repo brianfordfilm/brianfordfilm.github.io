@@ -1,0 +1,74 @@
+body {
+    margin : 0;
+}
+
+#header {
+    position : fixed;
+    top : 0;
+    height : 20%;
+    width : 100%;
+    background-image : url('title.png');
+    background-position : right top;
+    background-size : contain;
+    background-repeat : no-repeat;
+}
+
+#videos {
+    height : 33%;
+    position : fixed;
+    width : 100%;
+    top : 20%;
+    white-space : nowrap;
+}
+
+#footer {
+    position : fixed;
+    bottom : 0;
+    height : 50%;
+    width : 100%;
+    background-image : url('silhouette.png');
+    background-position : right bottom;
+    background-size : contain;
+    background-repeat : no-repeat;
+}
+
+#social-media {
+    position : absolute;
+    white-space : nowrap;
+    bottom : 0;
+    padding : 0.25em;
+    text-align : left;
+}
+
+.video-thumbnail {
+     height : 100%;
+     position : inline-block;
+     margin: 0 0.25em;
+}
+
+#video-carousel {
+    background-color : black;
+    padding : 0.25em 0;
+}
+
+.video-container {
+    position : relative;
+    display : inline-block;
+}
+
+.video-details {
+    box-shadow: 0px 0px 5px black;
+    color : white;
+    position : absolute;
+    top : 100%;
+    width : 100%;
+    left : 0;
+    display : none;
+    background-color : black;
+    padding : 1em 0;
+    z-index : 1;
+}
+
+.video-details > p {
+    padding : 0 1em;
+}
