@@ -13,14 +13,6 @@ body {
     background-repeat : no-repeat;
 }
 
-#videos {
-    height : 33%;
-    position : fixed;
-    width : 100%;
-    top : 20%;
-    white-space : nowrap;
-}
-
 #footer {
     position : fixed;
     bottom : 0;
@@ -40,37 +32,14 @@ body {
     text-align : left;
 }
 
-.video-thumbnail {
-     height : 100%;
-     position : inline-block;
-     margin: 0 0.25em;
-}
-
-#video-carousel {
-    background-color : black;
-    padding : 0.25em 0;
-}
-
-.video-container {
-    position : relative;
-    display : inline-block;
-}
-
-.video-details {
-    box-shadow: 0px 0px 5px black;
-    color : white;
+#phoneNumEmail {
     position : absolute;
-    top : 100%;
-    width : 100%;
-    left : 0;
-    display : none;
-    background-color : black;
-    padding : 1em 0;
-    z-index : 1;
+    width : 50%;
+    max-width : 320px;
+    bottom : 64px;
+    left : 4px;
 }
 
-.video-details > p {
-    padding : 0 1em;
+a {
+    text-decoration:none;
 }
-
-a{text-decoration:none;
